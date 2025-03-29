@@ -1,5 +1,5 @@
 # ls
-ll="ls -al"
+alias ll="ls -al"
 
 # git
 alias g="git"
@@ -8,18 +8,34 @@ alias gl="git log"
 
 alias gb="git branch"
 
-alias ga="git add ."
+alias ga="git add"
+alias gaa="git add ."
 
-# Not git checkout because there's no autocompletion with alias.
 alias gc="git commit"
 alias gca="git commit --amend"
 
-alias gcb="git checkout -b"
+alias gst="git stash"
+alias gstp="git stash pop"
+
+alias gsc="git switch -c"
+alias gm="git switch main && git pull"
 
 alias gs="git status"
 alias gss="git status -s"
 
-alias gm="git checkout main && git pull"
+alias gr="git restore"
+alias gra="git restore ."
+alias grs="git restore --staged"
+alias grsa="git restore --staged ."
+
+alias grt="git reset"
+alias grts="git reset --soft HEAD~1"
+
+alias gp="git pull"
+
+alias gd="git diff"
+
+alias gcl="git clone"
 
 # docker
 alias d="docker"
