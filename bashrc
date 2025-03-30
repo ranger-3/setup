@@ -1,4 +1,11 @@
+# cd
+alias c="cd"
+alias b="cd -"
+alias u="cd .."
+alias uu="cd ../.."
+
 # ls
+alias l="ls"
 alias ll="ls -al"
 
 # git
