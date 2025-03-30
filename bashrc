@@ -54,6 +54,10 @@ alias dvl="docker volume ls"
 alias dn="docker network"
 alias dnl="docker network ls"
 
+alias dr="docker run --rm -d"
+
+alias dk="docker kill"
+
 # docker compose
 alias dc="docker compose"
 
