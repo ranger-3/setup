@@ -8,6 +8,9 @@ alias uu="cd ../.."
 alias l="ls"
 alias ll="ls -al"
 
+# bashrc
+alias brc="nvim ~/.bashrc"
+
 # venv
 alias a="source .venv/bin/activate"
 
