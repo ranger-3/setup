@@ -8,6 +8,20 @@ alias uu="cd ../.."
 alias l="ls"
 alias ll="ls -al"
 
+# venv
+alias a="source .venv/bin/activate"
+
+# uv
+alias uvi="uv init"
+alias uvr="uv run"
+alias uva="uv add"
+alias uvrm="uv remove"
+
+# django
+alias djmm="uv run manage.py makemigrations"
+alias djm="uv run manage.py migrate"
+alias djr="uv run manage.py runserver"
+
 # git
 alias g="git"
 
