@@ -27,7 +27,8 @@ alias uvr="uv run"
 alias uva="uv add"
 alias uvad="uv add --dev"
 alias uvrm="uv remove"
-alias uvrc="uv run ruff check . --fix"
+alias uvrc="uv run ruff check --fix ."
+alias uvpt="uv run pytest"
 
 # django
 alias djsp="uv run django-admin startproject"
