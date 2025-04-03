@@ -91,9 +91,11 @@ alias dil="docker image ls"
 
 alias dv="docker volume"
 alias dvl="docker volume ls"
+alias dvr="docker volume rm"
 
 alias dn="docker network"
 alias dnl="docker network ls"
+alias dnr="docker network rm"
 
 alias dr="docker run --rm -d"
 
