@@ -58,6 +58,7 @@ alias gstp="git stash pop"
 
 alias gsc="git switch -c"
 alias gm="git switch main && git pull"
+alias gmp="git push origin main"
 
 alias gs="git status"
 alias gss="git status -s"
