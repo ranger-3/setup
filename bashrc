@@ -79,7 +79,9 @@ alias gcl="git clone"
 # docker
 alias d="docker"
 alias dp="docker ps"
+alias dpg="docker ps | grep"
 alias dpa="docker ps -a"
+alias dpag="docker ps -a | grep"
 
 alias db="docker build"
 
@@ -88,13 +90,16 @@ alias det="docker exec -ti"
 
 alias di="docker image"
 alias dil="docker image ls"
+alias dilg="docker image ls | grep"
 
 alias dv="docker volume"
 alias dvl="docker volume ls"
+alias dvlg="docker volume ls | grep"
 alias dvr="docker volume rm"
 
 alias dn="docker network"
 alias dnl="docker network ls"
+alias dnlg="docker network ls | grep"
 alias dnr="docker network rm"
 
 alias dr="docker run --rm -d"
