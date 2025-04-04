@@ -7,7 +7,7 @@ alias cD="cd Desktop"
 
 # ls
 alias l="ls"
-alias ll="ls -alh"
+alias ll="ls -lhaF"
 
 # dir
 alias md="mkdir"
