@@ -7,12 +7,15 @@ alias cD="cd Desktop"
 
 # ls
 alias l="ls"
-alias ll="ls -al"
+alias ll="ls -alh"
 
 # dir
 alias md="mkdir"
 alias rd="rmdir"
 alias rr="rm -rf"
+
+# nvim
+alias n="nvim"
 
 # bashrc
 alias brc="nvim ~/.bashrc"
@@ -31,14 +34,23 @@ alias uvrc="uv run ruff check --fix ."
 alias uvpt="uv run pytest"
 
 # django
-alias djsp="uv run django-admin startproject"
-alias djsa="uv run manage.py startapp"
-alias djcs="uv run manage.py createsuperuser"
-alias djmm="uv run manage.py makemigrations"
-alias djm="uv run manage.py migrate"
-alias djr="uv run manage.py runserver"
-alias djsh="uv run manage.py shell_plus"
-alias djbc="uv run manage.py dumpdata"
+alias duvsp="uv run django-admin startproject"
+alias duvsa="uv run manage.py startapp"
+alias duvcs="uv run manage.py createsuperuser"
+alias duvmm="uv run manage.py makemigrations"
+alias duvm="uv run manage.py migrate"
+alias duvr="uv run manage.py runserver"
+alias duvsh="uv run manage.py shell_plus"
+alias duvbc="uv run manage.py dumpdata"
+
+alias dpysp="python3 django-admin startproject"
+alias dpysa="python3 manage.py startapp"
+alias dpycs="python3 manage.py createsuperuser"
+alias dpymm="python3 manage.py makemigrations"
+alias dpym="python3 manage.py migrate"
+alias dpyr="python3 manage.py runserver"
+alias dpysh="python3 manage.py shell_plus"
+alias dpybc="python3 manage.py dumpdata"
 
 # git
 alias g="git"
@@ -114,4 +126,4 @@ alias dcu="docker compose up --build --remove-orphans"
 
 alias dcd="docker compose down --remove-orphans"
 
-alias dcc="docker compose config"
+alias dcc="docker compose config | less"
