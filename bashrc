@@ -121,6 +121,8 @@ alias dr="docker run --rm -d"
 
 alias dk="docker kill"
 
+alias dpr="docker image prune -f; docker volume prune -f"
+
 # docker compose
 alias dc="docker compose"
 
