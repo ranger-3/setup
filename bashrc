@@ -23,6 +23,7 @@ alias sbrc="source ~/.bashrc"
 
 # venv
 alias a="source .venv/bin/activate"
+alias dea="deactivate"
 
 # uv
 alias uvi="uv init"
