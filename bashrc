@@ -26,6 +26,7 @@ alias a="source .venv/bin/activate"
 
 # uv
 alias uvi="uv init"
+alias uvs="uv sync"
 alias uvr="uv run"
 alias uva="uv add"
 alias uvad="uv add --dev"
