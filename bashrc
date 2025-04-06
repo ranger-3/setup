@@ -94,9 +94,9 @@ alias gcl="git clone"
 # docker
 alias d="docker"
 alias dp="docker ps"
-alias dpg="docker ps | grep"
+alias dpg="docker ps | grep --color"
 alias dpa="docker ps -a"
-alias dpag="docker ps -a | grep"
+alias dpag="docker ps -a | grep --color"
 
 alias db="docker build"
 
@@ -105,17 +105,19 @@ alias det="docker exec -ti"
 
 alias di="docker image"
 alias dil="docker image ls"
-alias dilg="docker image ls | grep"
+alias dilg="docker image ls | grep --color"
 
 alias dv="docker volume"
 alias dvl="docker volume ls"
-alias dvlg="docker volume ls | grep"
+alias dvlg="docker volume ls | grep --color"
 alias dvr="docker volume rm"
+alias dvi="docker volume inspect"
 
 alias dn="docker network"
 alias dnl="docker network ls"
-alias dnlg="docker network ls | grep"
+alias dnlg="docker network ls | grep --color"
 alias dnr="docker network rm"
+alias dni="docker network inspect"
 
 alias dr="docker run --rm -d"
 
@@ -131,3 +133,4 @@ alias dcu="docker compose up --build --remove-orphans"
 alias dcd="docker compose down --remove-orphans"
 
 alias dcc="docker compose config | less"
+alias dccg="docker compose config | grep --color"
